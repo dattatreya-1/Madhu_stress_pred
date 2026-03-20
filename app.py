@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # ===== LOAD MODEL =====
-model = pickle.load(open("best_xgb_model.pk", "rb"))
+model = pickle.load(open("best_xgb_model.pkl", "rb"))
 
 st.title("🧠 Human Stress Detection System")
 
